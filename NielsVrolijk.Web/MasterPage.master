@@ -1,0 +1,63 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
+<head runat="server">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,700,700italic,400italic' rel='stylesheet' type='text/css'>
+	<link rel="STYLESHEET" type="text/css" href="niels.css" />
+	<!--[if IE]>
+   		<link rel="stylesheet" type="text/css" href="nielsIE.css" runat="server" />
+   <![endif]-->
+<title>NielsVrolijk.NL</title>
+</head>
+<body>
+<script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-16540850-2']);
+    _gaq.push(['_setDomainName', '.nielsvrolijk.nl']);
+    _gaq.push(['_trackPageview']);
+
+    (function () {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+</script>
+    <asp:SiteMapDataSource ID="mainSitemapSource" runat="server" ShowStartingNode="false" /><form runat="server">
+<div class="divMain">
+<!-- Begin Menu -->
+	<div class="divHeaderContainer" id="divHeaderContainer">
+
+		<div class="divHeaderOver" id="divHeaderOver1">&nbsp;</div>
+		<div class="divHeader" id="divHeader">NielsVrolijk.nl</div>
+		<div class="divHeaderOver" id="divHeaderOver2"><img src="~/images/globe.png" alt="Globe" align="right" runat="server" /></div>
+		<div class="divHeaderOver" id="divHeaderOver3">&nbsp;</div>
+	</div>
+	<div class="divMenu" id="divMenu">
+        <asp:Menu ID="MenuContainer" runat="server" Orientation="Horizontal" DataSourceID="mainSitemapSource" CssClass="menu" /><%-- <asp:LoginStatus ID="loginStatus" runat="server"  />--%>
+</div>
+<!-- Eind Menu -->
+	<div class="divText">
+	<asp:ContentPlaceHolder ID="content" runat="server" />
+	<div style="CLEAR:both;">
+	&nbsp;
+
+	</div>
+</div>
+		
+<!-- Begin Footer -->
+<div class="divFooter" id="Footer1">
+	Last update on
+	<asp:Literal ID="timestamp" runat="server" />
+</div>
+<div class="divFooter" id="Footer2">
+	&nbsp;</div>
+<!-- Eind Footer -->
+</form>
+</body>
+</html>
+
+

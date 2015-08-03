@@ -150,8 +150,8 @@ img.grayscale {
 }
 
 .bright {
-  background: #dbdbdb url('http://www.bootply.com/assets/example/pt_topo.png') repeat center center fixed; 
-  color:#777;
+  background: #daefff none repeat scroll 0; 
+  color:#701919;
 }
 
 .featurette {

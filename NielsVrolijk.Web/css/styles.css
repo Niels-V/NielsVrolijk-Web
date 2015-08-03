@@ -47,7 +47,7 @@ img.grayscale {
 .scroll-down {
    position:fixed;
    bottom:20%;
-   right:0%;
+   right:0;
    color:#f9f9f9;
 }
 
@@ -110,7 +110,7 @@ img.grayscale {
 }
 
 .header {
-  height: 45%;
+  height: 62%;
   background: repeating-linear-gradient(
   45deg,
   #819EB5 ,

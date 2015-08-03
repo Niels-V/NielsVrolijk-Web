@@ -30,7 +30,7 @@
     <h1>Niels Vrolijk</h1>
       <p class="lead">Developer</p>
       <div>&nbsp;</div>
-      <a href="http://blog.nielsvrolijk.nl" class="btn btn-default btn-lg">View my blog</a>
+      <a href="http://blog.nielsvrolijk.nl?utm_source=nvnl" class="btn btn-default btn-lg">View my blog</a>
   </div>
 </div>
 

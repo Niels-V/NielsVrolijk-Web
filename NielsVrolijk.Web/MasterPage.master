@@ -18,6 +18,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-md-offset-3 text-center">
+                    <h3>Contact</h3>
                     <ul class="list-inline">
                         <li><a href="https://www.facebook.com/nielsv"><i class="fa fa-2x fa-facebook-square"></i></a></li>
                         <li><a href="https://twitter.com/NielsV"><i class="fa fa-2x fa-twitter"></i></a></li>

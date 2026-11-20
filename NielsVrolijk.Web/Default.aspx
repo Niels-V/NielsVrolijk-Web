@@ -13,10 +13,10 @@
     </div>
     <div class="navbar-collapse collapse" id="navbar">
       <ul class="nav navbar-nav">
-        <li><a href="#AboutMe">About me</a></li>
-        <li><a href="#Certifications">Certifications</a></li>
+        <!-- <li><a href="#AboutMe">About me</a></li> -->
+        <!-- <li><a href="#Certifications">Certifications</a></li> -->
         <li><a href="#Experience">Experience</a></li>
-        <li><a href="#Expertise">Expertise</a></li>
+        <!-- <li><a href="#Expertise">Expertise</a></li> -->
         <li><a href="#Contact">Contact</a></li>
 
       </ul>
@@ -28,15 +28,15 @@
   <div class="container">
     
     <h1>Niels Vrolijk</h1>
-      <p class="lead">Developer</p>
+      <p class="lead">Technology consultant</p>
       <div>&nbsp;</div>
-      <a href="http://blog.nielsvrolijk.nl?utm_source=nvnl" class="btn btn-default btn-lg">View my blog</a>
+      <!-- <a href="http://blog.nielsvrolijk.nl?utm_source=nvnl" class="btn btn-default btn-lg">View my blog</a> -->
   </div>
 </div>
 
 <hr>
 
-<div id="AboutMe" class="blurb">
+<!-- <div id="AboutMe" class="blurb">
   <div class="container">
     <div class="row">
       <div class="col-sm-7">
@@ -56,9 +56,9 @@
 
     </div>
   </div>
-</div>
+</div> -->
 
-<div class="callout" id="Certifications">
+<!-- <div class="callout" id="Certifications">
   <div class="vert">
     <div class="col-md-12 text-center"><h2>My certifications</h2></div>
     <div class="col-md-12 text-center">&nbsp;</div>
@@ -72,7 +72,7 @@
       </div>
     </div>
   </div>
-</div>  
+</div>   -->
 
 
 
@@ -85,13 +85,13 @@
     </div>
     <div class="row">
       <div class="col-md-8 col-md-offset-2">
-        <p>I started my professional development career as a developer contractor in a large governmental IT organisation. I maintained and developed there 
-            both business applications as web content management systems, mainly on the Microsoft stack. Please take a look at my <a href="https://nl.linkedin.com/in/nielsvrolijk"><i class="fa fa-linkedin"></i> linkedin profile</a> for more info.</p>
+        <p>I started my professional development career as a developer contractor in both government as commercial environments. I maintained and developed  
+            both business applications as  content management systems, mainly on the Microsoft stack. With the experience I did a role shift to architecture and after that team and technology management in a small government insitution. Please take a look at my <a href="https://nl.linkedin.com/in/nielsvrolijk"><i class="fa fa-linkedin"></i> linkedin profile</a> for more info.</p> 
       </div>
     </div>
   </div>
 </div>
-
+<!-- 
 <div class="blurb bright" id="Expertise">
   
   <div class="row">
@@ -123,5 +123,5 @@
              </div>
  	</div>
   </div>
-</div>
+</div> -->
 </asp:Content>

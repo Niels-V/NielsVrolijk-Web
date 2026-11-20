@@ -20,8 +20,8 @@
                 <div class="col-md-6 col-md-offset-3 text-center">
                     <h3>Contact</h3>
                     <ul class="list-inline">
-                        <li><a href="https://www.facebook.com/nielsv"><i class="fa fa-2x fa-facebook-square"></i></a></li>
-                        <li><a href="https://twitter.com/NielsV"><i class="fa fa-2x fa-twitter"></i></a></li>
+                        <%--<li><a href="https://www.facebook.com/nielsv"><i class="fa fa-2x fa-facebook-square"></i></a></li>--%>
+                        <%--<li><a href="https://twitter.com/NielsV"><i class="fa fa-2x fa-twitter"></i></a></li>--%>
                         <li><a href="https://nl.linkedin.com/in/nielsvrolijk"><i class="fa fa-2x fa-linkedin"></i></a></li>
                         <li><a href="https://stackexchange.com/users/116814/niels-v"><i class="fa fa-2x fa-stack-exchange"></i></a></li>
                         <li><a href="https://github.com/Niels-V"><i class="fa fa-2x fa-github-square"></i></a></li>
